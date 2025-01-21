@@ -1,0 +1,84 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'PT Root UI', Arial, Helvetica, sans-serif;
+}
+
+article {
+  width: var(--document-article-width);
+  margin: 0 auto;
+  padding-right: var(--document-article-horizontal-padding);
+  padding-left: var(--document-article-horizontal-padding);
+}
+
+h1 {
+  margin-top: var(--document-heading-1-margin-top);
+  font-size: var(--document-heading-1-font-size);
+  line-height: var(--document-heading-1-line-height);
+  font-weight: var(--document-heading-1-font-weight);
+  font-style: var(--document-heading-1-font-style);
+  color: var(--document-heading-1-color);
+}
+
+h2 {
+  margin-top: var(--document-heading-2-margin-top);
+  font-size: var(--document-heading-2-font-size);
+  line-height: var(--document-heading-2-line-height);
+  font-weight: var(--document-heading-2-font-weight);
+  font-style: var(--document-heading-2-font-style);
+  color: var(--document-heading-2-color);
+}
+
+h3 {
+  margin-top: var(--document-heading-3-margin-top);
+  font-size: var(--document-heading-3-font-size);
+  line-height: var(--document-heading-3-line-height);
+  font-weight: var(--document-heading-3-font-weight);
+  font-style: var(--document-heading-3-font-style);
+  color: var(--document-heading-3-color);
+}
+
+p {
+  margin-top: var(--document-paragraph-margin-top);
+  font-size: var(--document-paragraph-font-size);
+  line-height: var(--document-paragraph-line-height);
+  font-weight: var(--document-paragraph-font-weight);
+  font-style: var(--document-paragraph-font-style);
+  color: var(--document-paragraph-color);
+}
+
+p.descriptor {
+  margin-top: var(--document-descriptor-margin-top);
+  font-size: var(--document-descriptor-font-size);
+  line-height: var(--document-descriptor-line-height);
+  font-weight: var(--document-descriptor-font-weight);
+  font-style: var(--document-descriptor-font-style);
+  color: var(--document-descriptor-color);
+}
+
+li {
+  margin-top: var(--document-li-margin-top);
+  font-size: var(--document-li-font-size);
+  line-height: var(--document-li-line-height);
+  font-weight: var(--document-li-font-weight);
+  font-style: var(--document-li-font-style);
+  color: var(--document-li-color);
+}
+
+p + ol {
+  margin-top: var(--document-p-ol-margin-top);
+}
+
+p + ul {
+  margin-top: var(--document-p-ul-margin-top);
+}
+
+ol + p {
+  margin-top: var(--document-ol-p-margin-top);
+}
+
+ul + p {
+  margin-top: var(--document-ul-p-margin-top);
+}

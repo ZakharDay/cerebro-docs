@@ -1,0 +1,90 @@
+:root {
+  --text-primary: #000;
+  --text-muted: #9b9b9b;
+
+  --document-article-width: 744px;
+  --document-article-horizontal-padding: 52px;
+  --document-heading-1-font-size: 36px;
+  --document-heading-1-line-height: 50px;
+  --document-heading-1-font-weight: 700;
+  --document-heading-1-font-style: normal;
+  --document-heading-1-margin-top: 52px;
+  --document-heading-1-color: var(--text-primary);
+  --document-heading-2-font-size: 30px;
+  --document-heading-2-line-height: 42px;
+  --document-heading-2-font-weight: 700;
+  --document-heading-2-font-style: normal;
+  --document-heading-2-margin-top: 52px;
+  --document-heading-2-color: var(--text-primary);
+  --document-heading-3-font-size: 26px;
+  --document-heading-3-line-height: 36px;
+  --document-heading-3-font-weight: 700;
+  --document-heading-3-font-style: normal;
+  --document-heading-3-margin-top: 52px;
+  --document-heading-3-color: var(--text-primary);
+  --document-descriptor-font-size: 20px;
+  --document-descriptor-line-height: 28px;
+  --document-descriptor-font-weight: 400;
+  --document-descriptor-font-style: normal;
+  --document-descriptor-margin-top: 6px;
+  --document-descriptor-color: var(--text-muted);
+  --document-paragraph-font-size: 20px;
+  --document-paragraph-line-height: 32px;
+  --document-paragraph-font-weight: 400;
+  --document-paragraph-font-style: normal;
+  --document-paragraph-margin-top: 16px;
+  --document-paragraph-color: var(--text-primary);
+  --document-p-ul-margin-top: 6px;
+  --document-ul-p-margin-top: 18px;
+  --document-p-ol-margin-top: 6px;
+  --document-ol-p-margin-top: 18px;
+  --document-li-font-size: 20px;
+  --document-li-line-height: 30px;
+  --document-li-font-weight: 400;
+  --document-li-font-style: normal;
+  --document-li-margin-top: 8px;
+  --document-li-color: var(--text-primary);
+}
+
+@media (max-width: 1280px) {
+  :root {
+    --document-article-width: 664px;
+    --document-article-horizontal-padding: 48px;
+    --document-heading-1-font-size: 34px;
+    --document-heading-1-line-height: 48px;
+    --document-heading-1-margin-top: 48px;
+    --document-heading-2-font-size: 28px;
+    --document-heading-2-line-height: 40px;
+    --document-heading-2-margin-top: 48px;
+    --document-heading-3-font-size: 24px;
+    --document-heading-3-line-height: 34px;
+    --document-heading-3-margin-top: 48px;
+    --document-descriptor-font-size: 18px;
+    --document-descriptor-line-height: 26px;
+    --document-descriptor-margin-top: 6px;
+    --document-paragraph-font-size: 18px;
+    --document-paragraph-line-height: 30px;
+    --document-paragraph-margin-top: 12px;
+    --document-ul-margin-top: 6px;
+    --document-ul-p-margin-top: 14px;
+    --document-ol-margin-top: 6px;
+    --document-ol-p-margin-top: 14px;
+    --document-li-font-size: 18px;
+    --document-li-line-height: 28px;
+    --document-li-margin-top: 6px;
+  }
+}
+
+@media (max-width: 834px) {
+  :root {
+    --document-article-width: 100%;
+    --document-article-horizontal-padding: 48px;
+  }
+}
+
+@media (max-width: 600px) {
+  :root {
+    --document-article-width: 100%;
+    --document-article-horizontal-padding: 20px;
+  }
+}
